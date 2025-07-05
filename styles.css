@@ -80,7 +80,7 @@ body {
 
 .parallax__container h1.title-wrapper span {
   display: inline-block; /* Agar bisa diatur transform-nya di JS */
-  font-size: 80px; /* Ukuran font awal yang sama untuk kedua kata */
+  font-size: 70px; /* Ukuran font awal yang sama untuk kedua kata */
   text-shadow:
     1px 1px 0px #0a0a0a,
     2px 2px 0px #0a0a0a,
@@ -220,7 +220,7 @@ body {
 /* Untuk layar dengan lebar maksimum 1024px (Tablet & Laptop Kecil) */
 @media (max-width: 1024px) {
   .parallax__container h1.title-wrapper span {
-    font-size: 55px;
+    font-size: 45px;
     text-shadow:
     1px 1px 0px #0a0a0a,
     2px 2px 0px #0a0a0a,
@@ -264,7 +264,7 @@ body {
     height: 70vh; /* Sesuaikan tinggi parallax untuk perangkat yang lebih kecil */
   }
   .parallax__container h1.title-wrapper span {
-    font-size: 42px;
+    font-size: 25px;
     text-shadow:
     1px 1px 0px #0a0a0a,
     2px 2px 0px #0a0a0a,
